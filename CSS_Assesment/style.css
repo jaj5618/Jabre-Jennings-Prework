@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  body {
+    font-size: 12px;
+    line-height: 22px;
+    color: #333;
+  }
+
+  header {
+      width: 100%;
+      background-color: gray;
+  }
+
+  #left {
+      float: left;
+      width: 50%;
+      text-align: center;
+      background-color: blue;
+      margin: 20px 0px 200px 0px;
+      padding: 200px;
+  }
+
+  #right {
+      float: right;
+      text-align: center;
+      width: 25%;
+      background-color: red;
+      padding: 200px;
+      margin: 20px 0px;
+  }
+
+  footer {
+      width: 100%;
+      clear: both;
+      background-color: green;
+  }
