@@ -1,4 +1,4 @@
-import "./assets/style.css";
+import "./style.css";
 import losing from "./assets/losing.mp3";
 
 const alphaBetKeyMappings = {
