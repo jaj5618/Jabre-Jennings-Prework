@@ -1,0 +1,145 @@
+html {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+  }
+  
+  .primary-background {
+    background: #242424;
+    transition: 0.2s ease-in;
+  }
+  .secondary-background {
+    background: #242424;
+    background: white;
+  }
+  
+  .current-word {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .data-wrap {
+    display: flex;
+  }
+  
+  .data-wrap > div {
+    border: 1px solid #00000012;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .data-right {
+    color: #242424;
+  }
+  
+  .total-wrap {
+    max-width: 350px;
+    min-width: 350px;
+    margin: auto;
+    opacity: 0;
+    transform: translateY(25%);
+    width: 100%;
+  }
+  
+  .move-up {
+    transition: 0.7s ease !important;
+    transform: translateY(-25%) !important;
+    opacity: 0 !important;
+  }
+  
+  .show {
+    transition: 0.7s ease;
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  
+  .total-wrap .wrap {
+    box-shadow: 1px 2px 10px 3px #00000036;
+    border-radius: 13px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .right {
+    background: white;
+  }
+  
+  .any {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: 0.5s ease;
+    background: #242424;
+    color: white;
+  }
+  
+  .any.hide {
+    opacity: 0;
+  }
+  
+  .word-word-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .letter-wrap {
+    margin-right: 2px;
+    height: 20px;
+    text-align: center;
+    width: 18px;
+  }
+  
+  .letter-wrap.showing .underscore {
+    display: none;
+  }
+  
+  .letter-wrap.not-showing .letter {
+    display: none;
+  }
+  
+  .spacer {
+    padding: 0 5px;
+  }
+  
+  .left img {
+    width: 100%;
+    /* max-height: 300px;
+    object-fit: cover; */
+  }
+  
+  .letters-guessed {
+    font-style: italic;
+  }
