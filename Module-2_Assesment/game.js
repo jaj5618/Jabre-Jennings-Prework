@@ -1,5 +1,5 @@
 import "./style.css";
-import losing from "./assets/losing.mp3";
+import losing from "./assets/audio/losing.mp3";
 
 const alphaBetKeyMappings = {
   65: "a",
