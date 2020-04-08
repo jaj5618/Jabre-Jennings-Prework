@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    line-height: 1.5;
+    text-transform: uppercase;
+    background-color: #89d5d2;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .row1 {
+      font-weight: bold;
+  }
+
+  p {
+      padding-top:250px ;
+  }
+
+  .row3 {
+    color: black;
+    font-weight: bold;
+    font-size: 82px;
+  }
+
+  .btn-light {
+      color: white;
+  }
+
+
+  
+
+  
+  
+  
